@@ -23,41 +23,41 @@
   }
   
   /* HEADER */
-  .hippocampus-header-wrapper,
-  .hippocampus-main-content-wrapper,
-  .hippocampus-footer-wrapper {
+  .hannah-header-wrapper,
+  .hannah-main-content-wrapper,
+  .hannah-footer-wrapper {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
   }
   
-  .hippocampus-header {
+  .hannah-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 32px;
   }
   
-  .hippocampus-logo {
+  .hannah-logo {
     width: 130px;
   }
   
-  .hippocampus-main-nav {
+  .hannah-main-nav {
     display: flex;
     gap: 16px;
   }
   
-  .hippocampus-main-nav a {
+  .hannah-main-nav a {
     text-decoration: none;
     color: #e08be5;
     transition: all ease .25s;
   }
   
-  .hippocampus-main-nav a:hover {
+  .hannah-main-nav a:hover {
     color: black;
   }
   
-  .hippocampus-intro {
+  .hannah-intro {
       background:
         linear-gradient(
           rgba(223, 255, 0, 0.75),
@@ -73,20 +73,20 @@
     }
   
   
-  .hippocampus-social-link:hover {
+  .hannah-social-link:hover {
     border: 1px solid black;
   }
   
-  .hippocampus-social-links {
+  .hannah-social-links {
     display: flex;
     gap: 16px;
   }
   
-  .hippocampus-social-link-image {
+  .hannah-social-link-image {
     width: 32px;
   }
   
-  .hippocampus-team-list {
+  .hannah-team-list {
     padding-left: 0;
     list-style-type: none;
     display: grid;
@@ -95,12 +95,12 @@
   }
   
   @media (max-width: 999px) {
-    .hippocampus-team-list {
+    .hannah-team-list {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
   }
   
-  .hippocampus-team-list a {
+  .hannah-team-list a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,42 +108,42 @@
     text-decoration: none;
   }
   
-  .hippocampus-team-list a:hover {
+  .hannah-team-list a:hover {
     filter: grayscale(0);
   }
   
-  .hippocampus-team-list p {
+  .hannah-team-list p {
     font-size: 20px;
   }
   
-  .hippocampus-contact-form {
+  .hannah-contact-form {
     border: 1px solid black;
     padding: 20px;
     border-radius: 20px;
     background: white;
   }
   
-  .hippocampus-feature-content {
+  .hannah-feature-content {
     display: flex;
     gap: 40px;
   }
   
-  .hippocampus-feature-image {
+  .hannah-feature-image {
     max-width: 250px;
   }
   
-  .hippocampus-feature-images {
+  .hannah-feature-images {
     display: flex;
     gap: 12px;
   }
   
-  .hippocampus-footer-wrapper {
+  .hannah-footer-wrapper {
     padding-top: 32px;
     border-top: 1px solid black;
     margin-top: 32px;
   }
   
-  .hippocampus-footer {
+  .hannah-footer {
     display: flex;
     justify-content: space-between;
   }
