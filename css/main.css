@@ -27,6 +27,7 @@
   .hannah-main-content-wrapper,
   .hannah-footer-wrapper {
     max-width: 800px;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
   }
