@@ -49,7 +49,7 @@
   
   .hannah-main-nav a {
     text-decoration: none;
-    color: #fc4579;
+    color: #ff0048;
     transition: all ease .25s;
   }
   
@@ -139,7 +139,7 @@
   
   .hannah-footer-wrapper {
     padding-top: 32px;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(255, 3, 3);
     margin-top: 32px;
   }
   
