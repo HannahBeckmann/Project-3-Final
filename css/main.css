@@ -12,26 +12,7 @@
     clip-path: inset(50%);
     border: 0;
   }
-  h1 {
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 800;
-  }
-  h2 {
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 400;
-  }
-  p {
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 200;
-  }
-  li {
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Prompt', sans-serif;
-    font-weight: 200;
-  }
+
   body {
     background-color: rgb(255, 148, 184);
   }
@@ -63,14 +44,18 @@
   }
   
   .hannah-main-nav {
-    display: flex;
+    display:inline-flex;
     gap: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
   }
   
   .hannah-main-nav a {
     text-decoration: none;
     color: #ff0048;
     transition: all ease .25s;
+    
   }
   
   .hannah-main-nav a:hover {
@@ -142,6 +127,9 @@
     padding: 20px;
     border-radius: 20px;
     background: rgb(249, 188, 214);
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
   }
   
   .hannah-feature-content {
@@ -167,4 +155,24 @@
   .hannah-footer {
     display: flex;
     justify-content: space-between;
+  }
+  h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800;
+  }
+  h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+  }
+  p {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 200;
+  }
+  li {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 200;
   }
