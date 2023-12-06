@@ -126,7 +126,8 @@
     border: 1px solid black;
     padding: 20px;
     border-radius: 20px;
-    background: rgb(249, 188, 214);
+    background: rgba(255, 0, 204, 0.206);
+    color: #ff0048;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-weight: 400;
@@ -161,18 +162,24 @@
     font-family: 'Prompt', sans-serif;
     font-weight: 800;
   }
+.hannah-intro h1 {
+    font-size: clamp(3rem, 1rem + 10vw, 4rem);
+  }
   h2 {
     font-family: 'DM Sans', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-weight: 400;
+    color: #ff0048;
   }
   p {
     font-family: 'DM Sans', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-weight: 200;
+    color: #ff0048;
   }
   li {
     font-family: 'DM Sans', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-weight: 200;
+    color: #ff0048;
   }
