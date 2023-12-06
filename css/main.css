@@ -55,7 +55,7 @@
   }
   
   .hannah-main-nav a:hover {
-    color: black;
+    color: rgb(255, 6, 6);
   }
   
   .hannah-intro {
@@ -105,12 +105,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    filter: grayscale(.5);
+    filter: opacity(100);
     text-decoration: none;
   }
   
   .hannah-team-list a:hover {
-    filter: grayscale(0);
+    filter: opacity(.5);
   }
   
   .hannah-team-list p {
