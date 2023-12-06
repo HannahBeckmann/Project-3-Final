@@ -46,6 +46,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 32px;
+    text-align: center;
   }
   
   .hannah-logo {
@@ -132,7 +133,7 @@
   }
   
   .hannah-contact-form {
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 20px;
     border-radius: 20px;
     background: rgba(255, 0, 204, 0.206);
@@ -173,10 +174,10 @@
   }
 .hannah-intro h1 {
     font-size: clamp(3rem, 1rem + 10vw, 4rem);
+    text-align: center;
     animation-name: SlideIn;
     animation-duration: 1s;
     animation-timing-function: ease-in;
-    animation-delay: 0s;
     animation-iteration-count: 1;
     animation-direction: normal;
     animation-fill-mode: both;
@@ -197,5 +198,8 @@
     font-family: 'DM Sans', sans-serif;
     font-family: 'Prompt', sans-serif;
     font-weight: 200;
+    color: #ff0048;
+  }
+  a {
     color: #ff0048;
   }
